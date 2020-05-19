@@ -1,0 +1,39 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <meta name="msapplication-TileColor" content="#0000FF">
+    <meta name="theme-color" content="#0000FF">
+
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{ site.title }}"/>
+    <meta property="og:url" content="{{ site.url }}"/>
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:description" content="{{ site.description }}"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ site.title }}"/>
+    <meta name="twitter:description" content="{{ site.description }}"/>
+
+    <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/agency.css" | prepend: site.baseurl }}">
+
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/ideal-image-slider.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/default.css" | prepend: site.baseurl }}">
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/rastikerdar/vazir-font/v16.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>

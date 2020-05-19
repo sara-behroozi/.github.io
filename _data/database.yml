@@ -1,0 +1,13 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 990633
+  secondary: ff0100
+  secondary-dark: 284d54
+  muted: 485a50
+
+# Font Families
+font:
+  primary: '"PT Sans", "Vazir", sans-serif'
+  primary-fa: '"Vazir", "PT Sans", sans-serif'
+  secondary: '"PT Sans", "Vazir", sans-serif'
+  secondary-fa: '"Vazir", "PT Sans", sans-serif'
